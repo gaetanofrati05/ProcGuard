@@ -28,12 +28,9 @@
  <table>
     <thead>
       <tr>
-        
+        <th>Data Structer/Gathering of anomaly</th>
+        <th></th>
       </tr>
-    </thead>
-    <tbody>
-
-    
-    </tbody>
+      
    
  </table>
