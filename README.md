@@ -29,7 +29,8 @@
     <thead>
       <tr>
         <th>Data Structer/Gathering of anomaly</th>
-        <th></th>
+        <th>Management of log file</th>
+        <th>Alert system and refactory and clean</th>
       </tr>
       
    
