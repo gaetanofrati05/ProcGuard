@@ -24,14 +24,20 @@
    <a href="#">click here to see the video</a>
    
  </p>
+ foreword: In this project an anomaly of a process is simply based on a change of status not based on what the process is doing or what process can access, the permission, change eccetera of course in a real project this can be widely complex
+ The idea of this project was clear create a system where each states is marked and durable 
  <h2>Here is the division of the project</h2>
  <table>
     <thead>
       <tr>
-        <th>Data Structer/Gathering of anomaly</th>
+        <th>Data Structure/Gathering of anomaly</th>
         <th>Management of log file</th>
+        <th>Management of proc dir</th>
         <th>Alert system and refactory and clean</th>
       </tr>
-      
-   
+      <tr>The data structure used is a simple HashTabel the gathering of the anomaly is supported by an attribute, the snap, associated each process </tr>
+      <tr>The log file is managed with several functions thread-safe for writing in the log the status of process</tr>
+      <tr>The proc dir is constaly read to screen the state of the process continuosly and if the process is suspicios it called send_alert function appends the log entry into the file and remove the pid of that specific process</tr>
+      <tr>Alert system is supported by a socket which sends the alert on a message of the process that had observed the anomaly </tr>
  </table>
+ 
