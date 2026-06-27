@@ -42,7 +42,7 @@ ProcGuard is a security daemon that silently observes process behavior on a Linu
 ## 🎓 Credits
 
 The **SHA-256 implementation** used in this project was not written by me — it was taken from a YouTube tutorial.
-👉 [Click here to watch the video](#)
+👉 [Click here to watch the video](https://youtu.be/UCaSrGBMsDs?si=r-aNXfnOOodjwzuG)
 
 ---
 
